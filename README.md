@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# Tamil-Letter-Clustering
-clustering modern tamil letters
-=======
+
 # Unsupervised Clustering of Handwritten Tamil Images
 
 This project groups handwritten Tamil character images by visual similarity. It uses a **CRNN autoencoder (CNN + bidirectional GRU) with IDEC** (Improved Deep Embedded Clustering) to learn image embeddings and assign them to clusters.
@@ -35,15 +32,44 @@ The reported comparison on the project dataset shows the CRNN autoencoder + IDEC
 
 These are results from this project's evaluation run, not a guarantee for other datasets or handwriting samples. The complete table is in [`clustering_results.csv`](./clustering_results.csv).
 
+## Live Demo : https://huggingface.co/spaces/Ashvitta07/Letter_Clustering
+
+## Demo:
+
+<img width="1832" height="892" alt="Screenshot 2026-10-12 111623" src="https://github.com/user-attachments/assets/6859c56d-80b5-4dfa-8c55-3a2f0ba53072" />
+
+<img width="1835" height="912" alt="Screenshot 2026-10-12 111639" src="https://github.com/user-attachments/assets/1f112af6-e4e2-4049-bdfd-ab83cb774260" />
+
+
 ## Visual results
 
 Example images from the learned clusters:
 
-![Samples from handwritten Tamil image clusters](./cluster_samples.png)
+<img width="2800" height="2879" alt="cluster_samples" src="https://github.com/user-attachments/assets/3f8fcad6-bde0-428d-a366-13aca6ff9005" />
 
 PCA and UMAP views of the IDEC embeddings:
 
-![PCA and UMAP visualizations of IDEC clusters](./pca_umap_idec.png)
+<img width="2800" height="1200" alt="pca_umap_idec" src="https://github.com/user-attachments/assets/a9ea5362-d116-456a-83eb-1b357ee58dca" />
+
+
+## Live Demo : https://huggingface.co/spaces/Ashvitta07/Letter_Clustering
+
+## Demo:
+
+<img width="1832" height="892" alt="Screenshot 2026-10-12 111623" src="https://github.com/user-attachments/assets/6859c56d-80b5-4dfa-8c55-3a2f0ba53072" />
+
+<img width="1835" height="912" alt="Screenshot 2026-10-12 111639" src="https://github.com/user-attachments/assets/1f112af6-e4e2-4049-bdfd-ab83cb774260" />
+
+
+## Visual results
+
+Example images from the learned clusters:
+
+<img width="2800" height="2879" alt="cluster_samples" src="https://github.com/user-attachments/assets/3f8fcad6-bde0-428d-a366-13aca6ff9005" />
+
+PCA and UMAP views of the IDEC embeddings:
+
+<img width="2800" height="1200" alt="pca_umap_idec" src="https://github.com/user-attachments/assets/a9ea5362-d116-456a-83eb-1b357ee58dca" />
 
 ## Run the demo
 
